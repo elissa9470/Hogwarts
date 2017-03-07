@@ -1,0 +1,203 @@
+/*** sectioning elements ***/
+
+@font-face {
+    font-family: ParryHotter;
+    src: url('../fonts/ParryHotter.ttf.');
+}
+
+body {
+  background-color: #1b0f00;
+  color: #fff;
+
+}
+
+header {
+
+}
+
+main {
+
+}
+
+footer {
+ background-color: #341e00;
+}
+
+nav {
+
+}
+  .navbar {
+    background-color: #341e00;
+  }
+
+  .navbrand {
+    color: #857;
+    font-family: cursive;
+  }
+
+  .navbar-menu a:link,
+  .navbar-menu a:visited {
+    color: #fff;
+    font-family: sans-serif;
+  }
+
+  .navbar-menu a:hover,
+  .navbar-menu a:active {
+    border-bottom: 3px sold #345332;
+    text-decoration: none;
+  }
+
+}
+
+section {
+
+}
+
+aside {
+
+}
+
+
+/**** content styles ***/
+
+h1 {
+  font-family: 'ParryHotter', cursive;
+  float: left;
+  color: #fff;
+  text-align: center;
+}
+
+h2 {
+  color: #ccc;
+
+}
+
+h3 {
+  font-family: 'Dancing Script', cursive;
+
+}
+
+h4 {
+
+}
+
+h5 {
+
+}
+
+h6 {
+
+}
+
+p {
+  font-family: 'Arapey', serif;
+}
+
+blockquote {
+
+}
+
+ol {
+
+}
+
+ul {
+
+}
+
+li {
+
+}
+
+table {
+  border-collapse: collapse;
+}
+
+caption {
+  color: #aaaaaa;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+tr {
+
+}
+
+tr.home {
+  background-color: #cccccc;
+  text-align: center;
+}
+
+tr.away {
+
+}
+
+th {
+  background-color: #;
+  color: #ffffff;
+
+}
+
+td {
+
+}
+
+@media (max-width: 1000px) {
+  table {
+      width: 100%;
+  }
+
+  thead {
+    display: none;
+  }
+
+  tr {
+    border: 1px solid #AAAAAA;
+    display: block;
+
+
+  }
+
+  td {
+    display: block;
+    text-align: right;
+  }
+
+  td:before {
+      content: attr(aria-label);
+      float: left;
+      font-weight: bold;
+    }
+  }
+
+
+/*** image styles ***/
+
+img  {
+ display: block;
+ margin: 0 auto;
+}
+
+img.right {
+  float: right;
+  margin-right: 20px;
+}
+/
+/*** link styles ***/
+
+a:link {
+ color: #fff;
+}
+
+a:visited {
+ color: #fff;
+}
+
+a:hover {
+
+}
+
+a:active {
+
+}
