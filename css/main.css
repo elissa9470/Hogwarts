@@ -65,6 +65,7 @@ h1 {
   float: left;
   color: #fff;
   text-align: center;
+  line-height: 2.0;
 }
 
 h2 {
@@ -111,6 +112,7 @@ li {
 
 table {
   border-collapse: collapse;
+  width: 100%;
 }
 
 caption {
@@ -183,7 +185,7 @@ img.right {
   float: right;
   margin-right: 20px;
 }
-/
+
 /*** link styles ***/
 
 a:link {
