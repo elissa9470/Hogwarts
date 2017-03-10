@@ -145,26 +145,7 @@ td {
 
 }
 
-@media (max-width: 1000px) {
-  table {
-      width: 100%;
-  }
 
-  thead {
-    display: none;
-  }
-
-  tr {
-    border: 1px solid #AAAAAA;
-    display: block;
-
-
-  }
-
-  td {
-    display: block;
-    text-align: right;
-  }
 
   td:before {
       content: attr(aria-label);
